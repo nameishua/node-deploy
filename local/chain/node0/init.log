@@ -1,0 +1,14 @@
+INFO [03-03|20:25:34.232] Maximum peer count                       ETH=50 total=50
+INFO [03-03|20:25:34.233] Using leveldb as db engine
+INFO [03-03|20:25:34.235] Use CLI state scheme                     CLI=hash
+INFO [03-03|20:25:34.235] Set global gas cap                       cap=50,000,000
+INFO [03-03|20:25:34.236] Initializing the KZG library             backend=gokzg
+INFO [03-03|20:25:34.255] Using leveldb as the backing database
+INFO [03-03|20:25:34.255] Allocated cache and file handles         database=/Users/gala/data/web3/node-deploy/mygit/node-deploy/local/chain/node0/geth/chaindata cache=16.00MiB handles=16
+INFO [03-03|20:25:34.279] Using LevelDB as the backing database
+INFO [03-03|20:25:34.330] Opened ancient database                  database=/Users/gala/data/web3/node-deploy/mygit/node-deploy/local/chain/node0/geth/chaindata/ancient/chain readonly=false frozen=0
+INFO [03-03|20:25:34.330] State scheme set by user                 scheme=hash
+INFO [03-03|20:25:34.330] Writing custom genesis block
+INFO [03-03|20:25:34.332] Persisted trie from memory database      nodes=37 size=5.30KiB time="47.792µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=0 livesize=0.00B
+INFO [03-03|20:25:34.335] genesis block hash                       hash=5e1041..7a31dc
+INFO [03-03|20:25:34.335] Successfully wrote genesis state         database=chaindata hash=0x5e10410e209a23848c2476ace9965a02bb7ca112d4fe9a2843dd8295fa7a31dc

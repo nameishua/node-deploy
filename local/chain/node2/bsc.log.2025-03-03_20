@@ -1,0 +1,124 @@
+t=03-03|20:25:38.045 lvl=debug msg="FS scan times" list=564.959µs set=23.25µs diff=3.791µs
+t=03-03|20:25:38.049 lvl=debug msg="Sanitizing Go's GC trigger" percent=25
+t=03-03|20:25:38.051 lvl=info msg="Global gas cap disabled"
+t=03-03|20:25:38.051 lvl=info msg="Initializing the KZG library" backend=gokzg
+t=03-03|20:25:38.107 lvl=warn msg="Expensive metrics will remain in BSC and may be removed in the future" flag=metrics.expensive
+t=03-03|20:25:38.109 lvl=info msg="Using pebble as the backing database"
+t=03-03|20:25:38.109 lvl=info msg="Allocated cache and file handles" database=/Users/gala/data/web3/node-deploy/mygit/node-deploy/local/chain/node2/geth/chaindata cache="1.60 GiB" handles=5120 "memory table"="409.50 MiB"
+t=03-03|20:25:38.349 lvl=debug msg="Verified index file" items=1 elapsed=5.375µs
+t=03-03|20:25:38.380 lvl=debug msg="Chain freezer table opened" database=/Users/gala/data/web3/node-deploy/mygit/node-deploy/local/chain/node2/geth/chaindata/ancient/chain table=bodies items=0 size="0.00 B"
+t=03-03|20:25:38.381 lvl=debug msg="Verified index file" items=1 elapsed=42.875µs
+t=03-03|20:25:38.415 lvl=debug msg="Chain freezer table opened" database=/Users/gala/data/web3/node-deploy/mygit/node-deploy/local/chain/node2/geth/chaindata/ancient/chain table=receipts items=0 size="0.00 B"
+t=03-03|20:25:38.415 lvl=debug msg="Verified index file" items=1 elapsed=1.792µs
+t=03-03|20:25:38.448 lvl=debug msg="Chain freezer table opened" database=/Users/gala/data/web3/node-deploy/mygit/node-deploy/local/chain/node2/geth/chaindata/ancient/chain table=diffs items=0 size="0.00 B"
+t=03-03|20:25:38.449 lvl=debug msg="Verified index file" items=1 elapsed=9.792µs
+t=03-03|20:25:38.494 lvl=debug msg="Chain freezer table opened" database=/Users/gala/data/web3/node-deploy/mygit/node-deploy/local/chain/node2/geth/chaindata/ancient/chain table=blobs items=0 size="0.00 B"
+t=03-03|20:25:38.495 lvl=debug msg="Verified index file" items=1 elapsed=545.333µs
+t=03-03|20:25:38.526 lvl=debug msg="Chain freezer table opened" database=/Users/gala/data/web3/node-deploy/mygit/node-deploy/local/chain/node2/geth/chaindata/ancient/chain table=headers items=0 size="0.00 B"
+t=03-03|20:25:38.526 lvl=debug msg="Verified index file" items=1 elapsed=2.542µs
+t=03-03|20:25:38.545 lvl=debug msg="Chain freezer table opened" database=/Users/gala/data/web3/node-deploy/mygit/node-deploy/local/chain/node2/geth/chaindata/ancient/chain table=hashes items=0 size="0.00 B"
+t=03-03|20:25:38.545 lvl=info msg="Opened ancient database" database=/Users/gala/data/web3/node-deploy/mygit/node-deploy/local/chain/node2/geth/chaindata/ancient/chain readonly=false frozen=0
+t=03-03|20:25:38.557 lvl=info msg="State scheme set to already existing disk db" scheme=path
+t=03-03|20:25:38.557 lvl=info msg="Capped dirty cache size" provided="1024.00 MiB" adjusted="256.00 MiB"
+t=03-03|20:25:38.557 lvl=info msg="Clean cache size" provided="614.00 MiB" adjusted="1.35 GiB"
+t=03-03|20:25:38.557 lvl=info msg="Allocated memory caches" state_scheme=path trie_clean_cache="1.35 GiB" trie_dirty_cache="256.00 MiB" snapshot_cache="819.00 MiB"
+t=03-03|20:25:38.557 lvl=debug msg="Current full block not old enough to freeze" number=0 hash=0x5e10410e209a23848c2476ace9965a02bb7ca112d4fe9a2843dd8295fa7a31dc delay=512
+t=03-03|20:25:38.557 lvl=info msg="Unprotected transactions allowed"
+t=03-03|20:25:38.557 lvl=info msg=Parlia chainConfig="{ChainID: 714 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: 0, Ramanujan: 0, Niels: 0, MirrorSync: 1, Bruno: 1, Berlin: 8, YOLO v3: <nil>, CatalystBlock: <nil>, London: 8, ArrowGlacier: <nil>, MergeFork:<nil>, Euler: 2, Gibbs: 4, Nano: 3, Moran: 3, Planck: 5,Luban: 6, Plato: 7, Hertz: 8, Hertzfix: 8 ShanghaiTime: 1741004769, KeplerTime: 1741004769, FeynmanTime: 1741004769, FeynmanFixTime: 1741004769, CancunTime: 1741004769, HaberTime: 1741004769, HaberFixTime: 1741004769, BohrTime: 1741004769, PascalTime: 1741004779, PragueTime: 1741004779, LorentzTime: <nil>, Engine: parlia}"
+t=03-03|20:25:38.561 lvl=info msg="Initialising Ethereum protocol" network=714 dbversion=<nil>
+t=03-03|20:25:38.571 lvl=info msg="New journal reader for journal kv"
+t=03-03|20:25:38.571 lvl=info msg="Failed to load journal, discard it" err="journal not found"
+t=03-03|20:25:38.571 lvl=info msg="New journal reader for journal kv"
+t=03-03|20:25:38.571 lvl=warn msg="Failed to load disk journal with node buffer, discard it" err="journal not found"
+t=03-03|20:25:38.571 lvl=info msg="New async node buffer" limit="256.00 MiB" layers=0
+t=03-03|20:25:38.571 lvl=debug msg="Verified index file" items=2 elapsed=2.041µs
+t=03-03|20:25:38.602 lvl=debug msg="Chain freezer table opened" database=/Users/gala/data/web3/node-deploy/mygit/node-deploy/local/chain/node2/geth/chaindata/ancient/state table=account.index items=1 size="341.00 B"
+t=03-03|20:25:38.603 lvl=debug msg="Verified index file" items=2 elapsed=2.458µs
+t=03-03|20:25:38.631 lvl=debug msg="Chain freezer table opened" database=/Users/gala/data/web3/node-deploy/mygit/node-deploy/local/chain/node2/geth/chaindata/ancient/state table=storage.index items=1 size="1.00 B"
+t=03-03|20:25:38.632 lvl=debug msg="Verified index file" items=2 elapsed=117.167µs
+t=03-03|20:25:38.644 lvl=debug msg="Chain freezer table opened" database=/Users/gala/data/web3/node-deploy/mygit/node-deploy/local/chain/node2/geth/chaindata/ancient/state table=account.data items=1 size="1.00 B"
+t=03-03|20:25:38.645 lvl=debug msg="Verified index file" items=2 elapsed=766.625µs
+t=03-03|20:25:38.673 lvl=debug msg="Chain freezer table opened" database=/Users/gala/data/web3/node-deploy/mygit/node-deploy/local/chain/node2/geth/chaindata/ancient/state table=storage.data items=1 size="1.00 B"
+t=03-03|20:25:38.673 lvl=debug msg="Verified index file" items=2 elapsed=2µs
+t=03-03|20:25:38.683 lvl=debug msg="Chain freezer table opened" database=/Users/gala/data/web3/node-deploy/mygit/node-deploy/local/chain/node2/geth/chaindata/ancient/state table=history.meta items=1 size="73.00 B"
+t=03-03|20:25:38.683 lvl=info msg="Opened ancient database" database=/Users/gala/data/web3/node-deploy/mygit/node-deploy/local/chain/node2/geth/chaindata/ancient/state readonly=false frozen=1
+t=03-03|20:25:38.683 lvl=info msg="Initialized path database" cache="1.35 GiB" buffer="256.00 MiB" history=90000
+t=03-03|20:25:38.692 lvl=info msg="Initialised chain configuration" config="{ChainID: 714 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: 0, Ramanujan: 0, Niels: 0, MirrorSync: 1, Bruno: 1, Berlin: 8, YOLO v3: <nil>, CatalystBlock: <nil>, London: 8, ArrowGlacier: <nil>, MergeFork:<nil>, Euler: 2, Gibbs: 4, Nano: 3, Moran: 3, Planck: 5,Luban: 6, Plato: 7, Hertz: 8, Hertzfix: 8 ShanghaiTime: 1741004769, KeplerTime: 1741004769, FeynmanTime: 1741004769, FeynmanFixTime: 1741004769, CancunTime: 1741004769, HaberTime: 1741004769, HaberFixTime: 1741004769, BohrTime: 1741004769, PascalTime: 1741004779, PragueTime: 1741004779, LorentzTime: <nil>, Engine: parlia}"
+t=03-03|20:25:38.701 lvl=info msg="Stored checkpoint snapshot to disk" number=0 hash=0x5e10410e209a23848c2476ace9965a02bb7ca112d4fe9a2843dd8295fa7a31dc
+t=03-03|20:25:38.701 lvl=info msg="Loaded most recent local block" number=0 hash=0x5e10410e209a23848c2476ace9965a02bb7ca112d4fe9a2843dd8295fa7a31dc root=0x675807fb6a1979cdd79573c8a5dfa35a7e610e5a4f8afc644eee38d08ffcb670 td=1 age=4y11mo1w
+t=03-03|20:25:38.701 lvl=info msg="Loaded most recent local finalized block" number=0 hash=0x5e10410e209a23848c2476ace9965a02bb7ca112d4fe9a2843dd8295fa7a31dc root=0x675807fb6a1979cdd79573c8a5dfa35a7e610e5a4f8afc644eee38d08ffcb670 td=1 age=4y11mo1w
+t=03-03|20:25:38.701 lvl=warn msg="Failed to load snapshot" err="missing or corrupted snapshot"
+t=03-03|20:25:38.720 lvl=info msg="Rebuilding state snapshot"
+t=03-03|20:25:38.720 lvl=debug msg="Journaled generator progress" progress=empty
+t=03-03|20:25:38.730 lvl=debug msg="Start snapshot generation" root=0x675807fb6a1979cdd79573c8a5dfa35a7e610e5a4f8afc644eee38d08ffcb670
+t=03-03|20:25:38.730 lvl=info msg="Resuming state snapshot generation" root=0x675807fb6a1979cdd79573c8a5dfa35a7e610e5a4f8afc644eee38d08ffcb670 accounts=0 slots=0 storage="0.00 B" dangling=0 elapsed=9.861ms
+t=03-03|20:25:38.730 lvl=info msg="Initialized transaction indexer" range="last 2350000 blocks"
+t=03-03|20:25:38.730 lvl=warn msg="Sanitizing invalid blobpool storage cap" provided=0 updated=2684354560
+t=03-03|20:25:38.730 lvl=warn msg="Sanitizing invalid blobpool price bump" provided=0 updated=100
+t=03-03|20:25:38.730 lvl=warn msg="Sanitizing invalid txpool reannounce time" provided=0s updated=1m0s
+t=03-03|20:25:38.731 lvl=debug msg="Regenerated state range" kind=account prefix=0x61 root=0x675807fb6a1979cdd79573c8a5dfa35a7e610e5a4f8afc644eee38d08ffcb670 last=0x count=26 created=26 updated=0 untouched=0 deleted=0
+t=03-03|20:25:38.731 lvl=debug msg="Journaled generator progress" progress=done
+t=03-03|20:25:38.731 lvl=debug msg="Blobpool tip threshold updated" tip=10000000000
+t=03-03|20:25:38.731 lvl=info msg="Create votePool successfully"
+t=03-03|20:25:38.731 lvl=info msg="Create MaliciousVoteMonitor successfully"
+t=03-03|20:25:38.734 lvl=info msg="Read BLS wallet password successfully"
+t=03-03|20:25:38.734 lvl=info msg="Open BLS wallet successfully"
+t=03-03|20:25:38.744 lvl=info msg="Generated state snapshot" accounts=26 slots=0 storage="1.59 KiB" dangling=0 elapsed=23.189ms
+t=03-03|20:25:38.764 lvl=info msg="Initialized keymanager successfully"
+t=03-03|20:25:38.764 lvl=info msg="Create voteSigner successfully"
+t=03-03|20:25:38.764 lvl=info msg="Create voteJournal successfully"
+t=03-03|20:25:38.764 lvl=info msg="Create voteManager successfully"
+t=03-03|20:25:38.764 lvl=warn msg="Sanitizing invalid gasprice oracle sample blocks" provided=0 updated=1
+t=03-03|20:25:38.764 lvl=warn msg="Sanitizing invalid gasprice oracle price cap" provided=<nil> updated=100000000000
+t=03-03|20:25:38.764 lvl=warn msg="Sanitizing invalid gasprice oracle ignore price" provided=<nil> updated=4
+t=03-03|20:25:38.764 lvl=warn msg="Sanitizing invalid gasprice oracle max header history" provided=0 updated=1
+t=03-03|20:25:38.764 lvl=warn msg="Sanitizing invalid gasprice oracle max block history" provided=0 updated=1
+t=03-03|20:25:38.764 lvl=debug msg="vote manager routine loop started"
+t=03-03|20:25:38.778 lvl=info msg="Enabling metrics collection"
+t=03-03|20:25:38.778 lvl=info msg="Enabling expensive metrics collection"
+t=03-03|20:25:38.778 lvl=info msg="Enabling stand-alone metrics HTTP endpoint" address=localhost:6062
+t=03-03|20:25:38.778 lvl=info msg="Starting metrics server" addr=http://localhost:6062/debug/metrics
+t=03-03|20:25:38.778 lvl=info msg="Starting peer-to-peer node" instance=Geth/v1.5.7-0449349b-20250228/darwin-arm64/go1.22.12
+t=03-03|20:25:38.846 lvl=debug msg="UDP listener up" addr=[::]:30313
+t=03-03|20:25:38.846 lvl=debug msg="TCP listener up" addr=[::]:30313
+t=03-03|20:25:38.847 lvl=debug msg="IPCs registered" namespaces=admin,debug,web3,eth,txpool,mev,parlia,miner,net
+t=03-03|20:25:38.849 lvl=info msg="New local node record" seq=1741004738847 id=c055fbf4deef68ab511de05154f4415b3d93f96b4ac55d8fd06d6bbf30ca4ea1 ip=127.0.0.1 udp=30313 tcp=30313
+t=03-03|20:25:38.849 lvl=info msg="IPC endpoint opened" url=/Users/gala/data/web3/node-deploy/mygit/node-deploy/local/chain/node2/geth.ipc
+t=03-03|20:25:38.849 lvl=info msg="Started P2P networking" self=enode://4c983187454c632312d35ccbbb5b801ec0081c202eb2fa4a506e218492f46312285c66aa7b470b43a1d0f90e1a1c7247e3ad2c6971ae8bcda9ad063f9c54af6b@127.0.0.1:30313
+t=03-03|20:25:38.850 lvl=debug msg="Allowed origin(s) for WS RPC interface [http://localhost http://galadeMacBook-Pro.local]"
+t=03-03|20:25:38.850 lvl=warn msg="Sanitizing invalid HTTP read header timeout" provided=0s updated=30s
+t=03-03|20:25:38.850 lvl=info msg="WebSocket enabled" url=ws://[::]:8547
+t=03-03|20:25:38.850 lvl=info msg="HTTP server started" endpoint=[::]:8547 auth=false prefix="" cors=* vhosts=*
+t=03-03|20:25:39.433 lvl=info msg="Unlocked account" address=0x5e2A531A825d8B61BCc305a35a7433e9A8920f0f
+t=03-03|20:25:39.433 lvl=info msg="Legacy pool tip threshold updated" tip=0
+t=03-03|20:25:39.433 lvl=debug msg="Blobpool tip threshold updated" tip=0
+t=03-03|20:25:39.434 lvl=info msg="Legacy pool tip threshold updated" tip=10000000000
+t=03-03|20:25:39.434 lvl=debug msg="Blobpool tip threshold updated" tip=10000000000
+t=03-03|20:25:39.434 lvl=info msg="Empty upgrade config" system-contract-upgrade=Rialto height=1
+t=03-03|20:25:39.434 lvl=info msg="Empty upgrade config" system-contract-upgrade=Rialto height=1
+t=03-03|20:25:39.434 lvl=debug msg="Not enough time for commitWork"
+t=03-03|20:25:39.434 lvl=debug msg="Get the most profitable work" index=0 balance=0 bestReward=0
+t=03-03|20:25:39.440 lvl=info msg="Commit new sealing work" number=1 sealhash=0x638ca75d0326e823cba0129e94c471a442369cec2af5d470f60b92e3e0b997b7 txs=0 blobs=0 gas=1799004 fees=0 elapsed=6.357ms
+t=03-03|20:25:39.440 lvl=info msg="Sealing block with" number=1 delay=-440.514ms headerDifficulty=1 val=0x5e2A531A825d8B61BCc305a35a7433e9A8920f0f
+t=03-03|20:25:39.440 lvl=debug msg="skip voting" blockCountSinceMining=1 blocksNumberSinceMining=5
+t=03-03|20:25:39.440 lvl=debug msg="Snapshot updated" blockRoot=0xa25e809d04b46934e08aef4151eac0fe397bd157f2a2e8b467ce13602cbc2d90
+t=03-03|20:25:39.440 lvl=debug msg="Created new diff layer" id=2 block=1 nodesize="12.59 KiB" statesize="12.02 KiB"
+t=03-03|20:25:39.441 lvl=debug msg="Snapshot capped" root=0xa25e809d04b46934e08aef4151eac0fe397bd157f2a2e8b467ce13602cbc2d90
+t=03-03|20:25:39.441 lvl=debug msg="Add difflayer to hash map" root=0xa25e809d04b46934e08aef4151eac0fe397bd157f2a2e8b467ce13602cbc2d90 block_number=1 map_len=118 add_delta=118
+t=03-03|20:25:39.458 lvl=info msg="Successfully sealed new block" number=1 sealhash=0x638ca75d0326e823cba0129e94c471a442369cec2af5d470f60b92e3e0b997b7 hash=0xa49349e9990f8c69d92da1c6711bb48c48ab15ff2b029adc2589875b4c688fea elapsed=18.291ms
+t=03-03|20:25:39.458 lvl=info msg="Signed recently, must wait"
+t=03-03|20:25:39.458 lvl=debug msg="Reinjecting stale transactions" count=0
+t=03-03|20:25:39.460 lvl=info msg="Indexed transactions" blocks=2 txs=8 tail=0 elapsed=1.237ms
+t=03-03|20:25:39.578 lvl=info msg="New local node record" seq=1741004738848 id=c055fbf4deef68ab511de05154f4415b3d93f96b4ac55d8fd06d6bbf30ca4ea1 ip=127.0.0.1 udp=30313 tcp=30313
+t=03-03|20:25:39.792 lvl=debug msg="Adding p2p peer" peercount=1 id=89e90304b7d84d2396a0db628c6311b1051b528a9e2e8e214ce13f9502f1a05d conn=inbound addr=127.0.0.1:49469 name=Geth/v1.5.7-0449349b...
+t=03-03|20:25:39.793 lvl=debug msg="Ethereum peer connected" id=89e90304b7d84d2396a0db628c6311b1051b528a9e2e8e214ce13f9502f1a05d conn=inbound name=Geth/v1.5.7-0449349b... peers.len=1
+t=03-03|20:25:39.866 lvl=debug msg="Adding p2p peer" peercount=2 id=9f91673ebbc1851f931455c14fe6390c9477d5c0b5a0ab44ff07a5d2f533bb9e conn=dyndial addr=127.0.0.1:30311 name=Geth/v1.5.7-0449349b...
+t=03-03|20:25:39.867 lvl=debug msg="Ethereum peer connected" id=9f91673ebbc1851f931455c14fe6390c9477d5c0b5a0ab44ff07a5d2f533bb9e conn=dyndial name=Geth/v1.5.7-0449349b... peers.len=2
+t=03-03|20:25:39.867 lvl=debug msg="Relaxed msgrate QoS values" proto=eth rtt=20s confidence=0.5 ttl=1m0s
+t=03-03|20:25:39.867 lvl=debug msg="Relaxed msgrate QoS values" proto=snap rtt=20s confidence=0.5 ttl=1m0s
+t=03-03|20:25:40.847 lvl=debug msg="Couldn't get external IP" err="no any router discovered" interface=any
+t=03-03|20:25:40.848 lvl=debug msg="Couldn't add port mapping" proto=TCP extport=30313 intport=30313 interface=any err="no any router discovered"
+t=03-03|20:25:40.848 lvl=debug msg="Couldn't add port mapping" proto=UDP extport=30313 intport=30313 interface=any err="no any router discovered"
+t=03-03|20:25:41.243 lvl=debug msg="Node revalidated" b=15 id=89e90304b7d84d2396a0db628c6311b1051b528a9e2e8e214ce13f9502f1a05d checks=1 q=fast
+t=03-03|20:25:42.499 lvl=debug msg="Node revalidated" b=15 id=9f91673ebbc1851f931455c14fe6390c9477d5c0b5a0ab44ff07a5d2f533bb9e checks=1 q=fast
+t=03-03|20:25:43.003 lvl=debug msg="Node revalidated" b=15 id=89e90304b7d84d2396a0db628c6311b1051b528a9e2e8e214ce13f9502f1a05d checks=2 q=slow
